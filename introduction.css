@@ -42,6 +42,9 @@
     font-size: 800%;
 }
 .spacer{
-    padding: 20%;
+    padding: 10%;
+    background-color: #111C45;
+}
+.cards {
     background-color: #111C45;
 }
