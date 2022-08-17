@@ -18,10 +18,12 @@
         place-content: baseline;
       }
 }
+
 .tag {
     text-align: center;
-    color:white;
+    color:#c1d0e3;
     background-color: #111C45;
+    padding: 5%;
 }
 .img-fluid{
     display: block;
@@ -35,8 +37,11 @@
     padding-bottom: 5%;
 }
 .an{
-    color: white;
+    color: #c1d0e3;
     font-weight: bold;
+}
+.card-text{
+    color: white;
 }
 .person{
     font-size: 800%;
@@ -47,4 +52,15 @@
 }
 .cards {
     background-color: #111C45;
+    padding: 3%;
 }
+.card {
+    background-color: #111C45;
+}
+.image-background{
+    background-color: #111C45;
+}
+body{
+   background-color: #c1d0e3; 
+}
+
