@@ -7,11 +7,16 @@
         text-align: center;
     }
 }
-
+.para{
+    padding: 5%;
+}
 .about {
     text-align: center;
 }
-
+.descript{
+    text-align: center;
+    color: white;
+}
 .largetext {
     font-size: 400%;
 }
@@ -20,10 +25,17 @@
 }
 .spacer{
     padding: 5%;
-    background-color: #111C45;
+
+}
+.largerspacer{
+    padding: 10%;
+
+}
+nav, .top{
+    background: #c1d0e3;
 }
 body {
-    background: #c1d0e3;
+    background: #111C45;
     font-family: 'Helvetica Neue', sans-serif;
   }
   
@@ -54,4 +66,24 @@ body {
 .des{
     background-color: #111C45;
     color: #c1d0e3;
+}
+.headshot{
+    padding: 10%;
+    background-color: #111C45;
+}
+img{
+    max-width: 100%;
+}
+
+footer{
+    padding: 3%;
+    color: white;
+}
+  /* Add a hover effect if you want */
+  .icon:hover {
+    opacity: 0.7;
+  }
+  
+.page{
+    font-family: 'Poppins', sans-serif;
 }

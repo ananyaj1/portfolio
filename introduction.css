@@ -25,6 +25,9 @@
     background-color: #111C45;
     padding: 5%;
 }
+nav, .intro{
+    background-color: #c1d0e3;
+}
 .img-fluid{
     display: block;
 }
@@ -40,8 +43,16 @@
     color: #c1d0e3;
     font-weight: bold;
 }
-.card-text{
+.card-text, .card-title{
     color: white;
+    padding: 2%;
+}
+.card-subtitle{
+    color:#c1d0e3;
+    padding: 2%;
+}
+.card-text{
+    font-size: 1.2vw;
 }
 .person{
     font-size: 800%;
@@ -61,6 +72,18 @@
     background-color: #111C45;
 }
 body{
-   background-color: #c1d0e3; 
+   background-color: #111C45; 
 }
+footer{
+    padding: 3%;
+    color: white;
+}
+  /* Add a hover effect if you want */
+  .icon:hover {
+    opacity: 0.7;
+  }
 
+  .largerspacer{
+    padding: 10%;
+
+}
